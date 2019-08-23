@@ -2,20 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c21d53c0-4032-4750-a6a3-05a255859ed2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Software Design Patterns.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strategy/BetaUnzip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strategy/BetaZip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strategy/IUnzipStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strategy/IZipStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strategy/MetalHeadUnzip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strategy/MetalHeadZip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strategy/StrategyExampleMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strategy/ZiperUnziper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/Publisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/Subscriber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/WeatherNativeApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/WeatherStation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/WeatherWebApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,24 +28,24 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="1" />
-          <entry key="java" value="9" />
+          <entry key="java" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="9" />
+          <entry key="JAVA" value="15" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="3" />
-          <entry key="java" value="915" />
+          <entry key="java" value="2581" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="915" />
+          <entry key="JAVA" value="2581" />
           <entry key="PLAIN_TEXT" value="3" />
         </counts>
       </usages-collector>
@@ -61,92 +54,76 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/strategy/StrategyExampleMain.java">
+        <entry file="file://$PROJECT_DIR$/src/observer/Publisher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
+            <state relative-caret-position="224">
+              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/strategy/ZiperUnziper.java">
+        <entry file="file://$PROJECT_DIR$/src/observer/WeatherStation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="319">
+              <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
               <folding>
-                <element signature="e#313#314#0" expanded="true" />
-                <element signature="e#345#346#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#249#250#0" expanded="true" />
+                <element signature="e#279#280#0" expanded="true" />
+                <element signature="e#363#364#0" expanded="true" />
+                <element signature="e#391#392#0" expanded="true" />
+                <element signature="e#321#322#0" expanded="true" />
+                <element signature="e#342#343#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/strategy/IZipStrategy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/strategy/IUnzipStrategy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/strategy/MetalHeadZip.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-              <folding>
-                <element signature="e#108#109#0" expanded="true" />
-                <element signature="e#138#139#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/strategy/BetaZip.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-              <folding>
-                <element signature="e#154#155#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/strategy/MetalHeadUnzip.java">
+        <entry file="file://$PROJECT_DIR$/src/observer/Subscriber.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="112">
-              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+              <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/observer/WeatherWebApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="13" column="31" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="31" />
               <folding>
-                <element signature="e#112#113#0" expanded="true" />
-                <element signature="e#166#167#0" expanded="true" />
+                <element signature="e#290#291#0" expanded="true" />
+                <element signature="e#339#340#0" expanded="true" />
+                <element signature="e#386#387#0" expanded="true" />
+                <element signature="e#416#417#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/observer/WeatherNativeApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+              <folding>
+                <element signature="e#296#297#0" expanded="true" />
+                <element signature="e#348#349#0" expanded="true" />
+                <element signature="e#400#401#0" expanded="true" />
+                <element signature="e#446#447#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/strategy/BetaUnzip.java">
+        <entry file="file://$PROJECT_DIR$/src/observer/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-              <folding>
-                <element signature="e#107#108#0" expanded="true" />
-                <element signature="e#161#162#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="443">
+              <caret line="33" column="44" lean-forward="true" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -177,10 +154,16 @@
         <option value="$PROJECT_DIR$/src/strategy/ZiperUnziper.java" />
         <option value="$PROJECT_DIR$/src/strategy/IZipStrategy.java" />
         <option value="$PROJECT_DIR$/src/strategy/IUnzipStrategy.java" />
+        <option value="$PROJECT_DIR$/src/observer/Publisher.java" />
+        <option value="$PROJECT_DIR$/src/observer/WeatherNativeApp.java" />
+        <option value="$PROJECT_DIR$/src/observer/Subscriber.java" />
+        <option value="$PROJECT_DIR$/src/observer/WeatherWebApp.java" />
+        <option value="$PROJECT_DIR$/src/observer/WeatherStation.java" />
+        <option value="$PROJECT_DIR$/src/observer/Main.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1680" />
     <option name="height" value="1050" />
   </component>
@@ -208,7 +191,7 @@
               <item name="Software Design Patterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="Software Design Patterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="strategy" type="462c0819:PsiDirectoryNode" />
+              <item name="observer" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -217,7 +200,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566354481699" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566524396339" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -234,7 +217,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="observer.Main" />
+      <module name="Software Design Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="observer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StrategyExampleMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="strategy.StrategyExampleMain" />
       <module name="Software Design Patterns" />
@@ -248,8 +244,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.StrategyExampleMain" />
+      <item itemvalue="Application.Main" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.StrategyExampleMain" />
       </list>
     </recent_temporary>
@@ -268,7 +269,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="947" extended-state="6" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -279,12 +280,12 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32896304" />
+      <window_info anchor="bottom" id="Terminal" weight="0.28630707" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32896304" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32883817" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -347,15 +348,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/strategy/StrategyExampleMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
+        <state relative-caret-position="336">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/strategy/ZiperUnziper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="272">
+          <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
           <folding>
             <element signature="e#313#314#0" expanded="true" />
             <element signature="e#345#346#0" expanded="true" />
@@ -417,6 +418,69 @@
             <element signature="e#107#108#0" expanded="true" />
             <element signature="e#161#162#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/observer/WeatherWebApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="13" column="31" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="31" />
+          <folding>
+            <element signature="e#290#291#0" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+            <element signature="e#386#387#0" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/observer/Publisher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/observer/Subscriber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/observer/WeatherNativeApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+          <folding>
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#446#447#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/observer/WeatherStation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/observer/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="33" column="44" lean-forward="true" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
         </state>
       </provider>
     </entry>
